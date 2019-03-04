@@ -5,7 +5,13 @@
 # ----------------------------------------------------------------------------
 # board definition
 # ----------------------------------------------------------------------------
-__PRJ_CONFIG_BOARD := xr871_evb_main
+__PRJ_CONFIG_BOARD := xr809_module
+
+# ----------------------------------------------------------------------------
+# override global config options
+# ----------------------------------------------------------------------------
+# set chip type: xr871 or xr32
+export __CONFIG_CHIP_TYPE := xr809
 
 # ----------------------------------------------------------------------------
 # override global config options
@@ -18,6 +24,9 @@ __PRJ_CONFIG_BOARD := xr871_evb_main
 
 # set n to use lwIP 2.x.x, support dual IPv4/IPv6 stack
 # export __CONFIG_LWIP_V1 := n
+
+# set y to support bin compression
+# export __CONFIG_BIN_COMPRESS := y
 
 # ----------------------------------------------------------------------------
 # override project common config options

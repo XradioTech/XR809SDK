@@ -1,2 +1,2 @@
-# XR871SDK
-The source code of XR871 WiFi SoC.
+# XR809SDK
+The source code of XR809 WiFi SoC.

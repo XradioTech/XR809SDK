@@ -5,8 +5,8 @@
 # ----------------------------------------------------------------------------
 # board definition
 # ----------------------------------------------------------------------------
-#__PRJ_CONFIG_BOARD := xr809_module
-__PRJ_CONFIG_BOARD := xr871_evb_main
+__PRJ_CONFIG_BOARD := xr809_module
+#__PRJ_CONFIG_BOARD := xr871_evb_main
 
 # ----------------------------------------------------------------------------
 # override global config options
